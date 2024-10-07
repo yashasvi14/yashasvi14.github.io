@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+#about { background-color: #f4f4f4; }
+#skills { background-color: #e2e2e2; }
+#education { background-color: #d0d0d0; }
+#experience { background-color: #bebebe; }
+#projects { background-color: #ccc; }
+#contact { background-color: #aaa; }
+
+@media (max-width: 600px) {
+    nav {
+        position: relative;
+        text-align: center;
+    }
+    
+    nav ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
