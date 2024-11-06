@@ -1,4 +1,4 @@
-# yashasvi14.github.io
+# Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my projects, experience, and skills, and includes links to my GitHub, LinkedIn, and Email for direct contact.
 
