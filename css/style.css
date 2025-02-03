@@ -698,7 +698,7 @@ strong {
 }
 
 /* Ensure the columns and cards take equal space */
-.col-md-6 {
+.col-md-4 {
   display: flex;
   flex-grow: 1;
 }
@@ -736,9 +736,9 @@ strong {
 .project-card img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: auto;
-  object-fit: cover;
   width: 100%;
+  height: 250px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image fills the space */
 }
 
 /* Ensure the link styles don't override the card's appearance */
@@ -778,4 +778,18 @@ strong {
 .custom-btn-group .social-button img:hover {
   transform: scale(1.1);
   /* Slightly enlarge the icon on hover */
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
