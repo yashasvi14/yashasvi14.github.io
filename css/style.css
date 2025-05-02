@@ -806,7 +806,7 @@ strong {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #007bff;
+  background-color: #0A6CFF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   overflow: hidden;
@@ -860,7 +860,7 @@ strong {
 .chat-header {
   height: 50px; /* Fixed height for the header */
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #006CFF;
   color: white;
   display: flex;
   justify-content: space-between;
