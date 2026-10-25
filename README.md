@@ -13,10 +13,10 @@ This portfolio website highlights my journey as a **Data Analyst**, **Data Scien
 
 ## Technologies Used
 
-- HTML5, CSS3, JavaScript
-- Bootstrap 4 for responsive layout
-- jQuery for interactive features
-- Hits.seeyoufarm for visitor counter badge
+- HTML5, CSS3 (grid layout, light/dark themes) and plain JavaScript, with no framework
+- TagCanvas for the 3D skills cloud
+- Space Grotesk and JetBrains Mono from Google Fonts
+- Resume chatbot embedded from Vercel
 - Hosted on **GitHub Pages**
 
 ## Contact
