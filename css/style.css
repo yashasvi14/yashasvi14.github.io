@@ -218,28 +218,8 @@ section[id], #about { scroll-margin-top: 90px; }
   background: radial-gradient(600px 300px at 0% 0%, var(--glow), transparent 70%), var(--surface);
 }
 
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  width: fit-content;
-  padding: 6px 12px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.badge i {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #22c55e;
-  box-shadow: 0 0 10px #22c55e;
-}
-
 h1 {
-  margin: 18px 0 0;
+  margin: 0;
   font-size: clamp(36px, 5.6vw, 68px);
   font-weight: 600;
   line-height: 1.02;
